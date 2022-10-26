@@ -4,12 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Presentation',
     Svg: require('@site/static/img/image-doc-API-AP.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        “Pour une édition numérique collaborative de l’Anthologie grecque” is a project of the Canada Research Chair on Digital Textualities directed by Marcello Vitali-Rosati in collaboration with Elsa Bouchard and Christian Raschle. 
+        You can visit the <a href="https://anthologiagraeca.org/">research project webpage</a> for more information.
+        <br />
+        This documentation provides you with a set of examples to help you access the research project data.
+        <br />
+        We will continue to evolve this documentation as we develop the project.
       </>
     ),
   },
